@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sondage</title>
+    <link rel="shortcut icon" href="./images/Logo-coupe.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="bodysondage">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./actus.html">Actus/News</a></li>
+          <li><a href="./equipes.html">Equipes</a></li>
+          <li id="profil"><a href="./profil.html">Profil</a></li>
+          <li><a href="#">Sondage</a></li>
+          <li><a href="./boutique.html">Boutique</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Sondage des victoires par match de poules</h1>
+    <section id="Poule1">
+      <div class="poules">
+        <h2>Groupe A</h2>
+        <ul>
+          <li>Qatar</li>
+          <li>Equateur</li>
+          <li>Sénegal</li>
+          <li>Pays-Bas</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage1" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="QatarvsEquateur"
+                >Qui gagne le match Qatar VS Equateur?</label
+              >
+              <select id="QatarvsEquateur">
+                <option value="Qatar">Qatar</option>
+                <option value="Equateur">Equateur</option>
+              </select>
+            </li>
+            <li>
+              <label for="QatarvsSenegal"
+                >Qui gagne le match Qatar VS Sénegal?</label
+              >
+              <select id="QatarvsSenegal">
+                <option value="Qatar">Qatar</option>
+                <option value="Senegal">Sénegal</option>
+              </select>
+            </li>
+            <li>
+              <label for="Qatarvspaysbas"
+                >Qui gagne le match Qatar VS Pays-Bas?</label
+              >
+              <select id="Qatarvspaysbas">
+                <option value="Qatar">Qatar</option>
+                <option value="Paysbas">Pays-Bas</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="EquateurvsSénegal"
+                >Qui gagne le match Equateur VS Sénegal?</label
+              >
+              <select id="EquateurvsSénegal">
+                <option value="Equateur">Equateur</option>
+                <option value="Senegal">Sénegal</option>
+              </select>
+            </li>
+            <li>
+              <label for="Equateurvspaysbas"
+                >Qui gagne le match Equateur VS Pays-Bas?</label
+              >
+              <select id="Equateurvspaysbas">
+                <option value="Equateur">Equateur</option>
+                <option value="Paysbas">Pays-Bas</option>
+              </select>
+            </li>
+            <li>
+              <label for="Senegalvspaysbas"
+                >Qui gagne le match Sénegal VS Pays-Bas?</label
+              >
+              <select id="Senegalvspaysbas">
+                <option value="Senegal">Sénegal</option>
+                <option value="Paysbas">Pays-Bas</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="10"
+            placeholder="Entrez vos commentaire sur le groupe A..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe B</h2>
+        <ul>
+          <li>Angleterre</li>
+          <li>Iran</li>
+          <li>Etats-Unis</li>
+          <li>Ukraine</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage2" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="AngleterrevsIran"
+                >Qui gagne le match Angleterre VS Iran?</label
+              >
+              <select id="AngleterrevsIran">
+                <option value="Angleterre">Angleterre</option>
+                <option value="Iran">Iran</option>
+              </select>
+            </li>
+            <li>
+              <label for="AngleterrevsEtatsunis"
+                >Qui gagne le match Angleterre VS Etats-Unis?</label
+              >
+              <select id="AngleterrevsEtatsunis">
+                <option value="Angleterre">Angleterre</option>
+                <option value="Etatsunis">Etats-unis</option>
+              </select>
+            </li>
+            <li>
+              <label for="AngleterrevsUkraine"
+                >Qui gagne le match Angleterre VS Ukraine?</label
+              >
+              <select id="AngleterrevsUkraine">
+                <option value="Angleterre">Angleterre</option>
+                <option value="Ukraine">Ukraine</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="IranvsEtatsunis"
+                >Qui gagne le match Iran VS Etats-Unis?</label
+              >
+              <select id="IranvsEtatsunis">
+                <option value="Iran">Iran</option>
+                <option value="Etats-Unis">Etats-Unis</option>
+              </select>
+            </li>
+            <li>
+              <label for="IranvsUkraine"
+                >Qui gagne le match Iran VS Ukraine?</label
+              >
+              <select id="IranvsUkraine">
+                <option value="Iran">Iran</option>
+                <option value="Ukraine">Ukraine</option>
+              </select>
+            </li>
+            <li>
+              <label for="EtatsUnisvsUkraine"
+                >Qui gagne le match Etats-Unis VS Ukraine?</label
+              >
+              <select id="EtatsUnisvsUkraine">
+                <option value="Etats-Unis">Etats-Unis</option>
+                <option value="Ukraine">Ukraine</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe B..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+
+      <div class="poules">
+        <h2>Groupe C</h2>
+        <ul>
+          <li>Argentine</li>
+          <li>Arabie Saoudite</li>
+          <li>Mexique</li>
+          <li>Pologne</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage3" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="ArgentinevsArabieSaoudite"
+                >Qui gagne le match Argentine VS Arabie Saoudite?</label
+              >
+              <select id="ArgentinevsArabieSaoudite">
+                <option value="Argentine">Argentine</option>
+                <option value="ArabieSaoudite">Arabie Saoudite</option>
+              </select>
+            </li>
+            <li>
+              <label for="ArgentinevsMexique"
+                >Qui gagne le match Argentine VS Mexique?</label
+              >
+              <select id="ArgentinevsMexique">
+                <option value="Argentine">Argentine</option>
+                <option value="Mexique">Mexique</option>
+              </select>
+            </li>
+            <li>
+              <label for="ArgentineevsPologne"
+                >Qui gagne le match Argentine VS Pologne?</label
+              >
+              <select id="ArgentinevsPologne">
+                <option value="Argentine">Argentine</option>
+                <option value="Pologne">Pologne</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="ArabieSaouditevsMexique"
+                >Qui gagne le match Arabie Saoudite VS Mexique?</label
+              >
+              <select id="ArabieSaouditevsEtatsunis">
+                <option value="ArabieSaoudite">Arabie Saoudite</option>
+                <option value="Mexique">Mexique</option>
+              </select>
+            </li>
+            <li>
+              <label for="ArabieSaouditevsPologne"
+                >Qui gagne le match Arabie Saoudite VS Pologne?</label
+              >
+              <select id="ArabieSaouditevsPologne">
+                <option value="ArabieSaoudite">Arabie Saoudite</option>
+                <option value="Pologne">Pologne</option>
+              </select>
+            </li>
+            <li>
+              <label for="MexiquevsPologne"
+                >Qui gagne le match Mexique VS Pologne?</label
+              >
+              <select id="MexiquevsPologne">
+                <option value="Mexique">Mexique</option>
+                <option value="Pologne">Pologne</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe C..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe D</h2>
+        <ul>
+          <li>France</li>
+          <li>Pérou</li>
+          <li>Danemark</li>
+          <li>Tunisie</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage4" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="FrancevsPérou"
+                >Qui gagne le match France VS Pérou?</label
+              >
+              <select id="FrancevsPérou">
+                <option value="France">France</option>
+                <option value="Pérou">Pérou</option>
+              </select>
+            </li>
+            <li>
+              <label for="FrancevsDanemark"
+                >Qui gagne le match France VS Danemark?</label
+              >
+              <select id="FrancevsDanemark">
+                <option value="France">France</option>
+                <option value="Danemark">Danemark</option>
+              </select>
+            </li>
+            <li>
+              <label for="FrancevsTunisie"
+                >Qui gagne le match France VS Tunisie?</label
+              >
+              <select id="FrancevsTunisie">
+                <option value="France">France</option>
+                <option value="Tunisie">Tunisie</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="PérouvsDanemark"
+                >Qui gagne le match Pérou VS Danemark?</label
+              >
+              <select id="IranvsDanemark">
+                <option value="Pérou">Pérou</option>
+                <option value="Danemark">Danemark</option>
+              </select>
+            </li>
+            <li>
+              <label for="PérouvsTunisie"
+                >Qui gagne le match Pérou VS Tunisie?</label
+              >
+              <select id="PérouvsTunisie">
+                <option value="Pérou">Pérou</option>
+                <option value="Tunisie">Tunisie</option>
+              </select>
+            </li>
+            <li>
+              <label for="DanemarkvsTunisie"
+                >Qui gagne le match Danemark VS Tunisie?</label
+              >
+              <select id="DanemarkvsTunisie">
+                <option value="Danemark">Danemark</option>
+                <option value="Tunisie">Tunisie</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe D..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe E</h2>
+        <ul>
+          <li>Espagne</li>
+          <li>Costa Rica</li>
+          <li>Allemagne</li>
+          <li>Japon</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage5" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="EspagnevsCostaRica"
+                >Qui gagne le match Espagne VS Costa Rica?</label
+              >
+              <select id="EspagnevsCostaRica">
+                <option value="Espagne">Espagne</option>
+                <option value="CostaRica">Costa Rica</option>
+              </select>
+            </li>
+            <li>
+              <label for="EspagnevsAllemagne"
+                >Qui gagne le match Espagne VS Allemagne?</label
+              >
+              <select id="EspagnevsAllemagne">
+                <option value="Espagne">Espagne</option>
+                <option value="Allemagne">Allemagne</option>
+              </select>
+            </li>
+            <li>
+              <label for="EspagnevsJapon"
+                >Qui gagne le match Espagne VS Japon?</label
+              >
+              <select id="EspagnevsJapon">
+                <option value="Espagne">Espagne</option>
+                <option value="Japon">Japon</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="CostaRicavsAllemagne"
+                >Qui gagne le match Costa Rica VS Allemagne?</label
+              >
+              <select id="CostaRicavsAllemagne">
+                <option value="CostaRica">Costa Rica</option>
+                <option value="Allemagne">Allemagne</option>
+              </select>
+            </li>
+            <li>
+              <label for="CostaRicavsJapon"
+                >Qui gagne le match Costa Rica VS Japon?</label
+              >
+              <select id="CostaRicavsJapon">
+                <option value="CostaRica">Costa Rica</option>
+                <option value="Japon">Japon</option>
+              </select>
+            </li>
+            <li>
+              <label for="AllemagnevsJapon"
+                >Qui gagne le match Allemagne VS Japon?</label
+              >
+              <select id="AllemagnevsJapon">
+                <option value="Allemagne">Allemagne</option>
+                <option value="Japon">Japon</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe E..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe F</h2>
+        <ul>
+          <li>Belgique</li>
+          <li>Canada</li>
+          <li>Maroc</li>
+          <li>Croatie</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage6" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="AngleterrevsCanada"
+                >Qui gagne le match Belgique VS Canada?</label
+              >
+              <select id="BelgiquevsCanada">
+                <option value="Belgique">Belgique</option>
+                <option value="Canada">Canada</option>
+              </select>
+            </li>
+            <li>
+              <label for="BelgiquevsMaroc"
+                >Qui gagne le match Belgique VS Maroc?</label
+              >
+              <select id="BelgiquevsMaroc">
+                <option value="Belgique">Belgique</option>
+                <option value="Maroc">Maroc</option>
+              </select>
+            </li>
+            <li>
+              <label for="BelgiquevsCroatie"
+                >Qui gagne le match Belgique VS Croatie?</label
+              >
+              <select id="BelgiquevsCroatie">
+                <option value="Belgique">Belgique</option>
+                <option value="Croatie">Croatie</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="CanadavsMaroc"
+                >Qui gagne le match Canada VS Maroc?</label
+              >
+              <select id="CanadavsMaroc">
+                <option value="Canada">Canada</option>
+                <option value="Maroc">Maroc</option>
+              </select>
+            </li>
+            <li>
+              <label for="CanadavsCroatie"
+                >Qui gagne le match Canada VS Croatie?</label
+              >
+              <select id="CanadavsCroatie">
+                <option value="Canada">Canada</option>
+                <option value="Croatie">Croatie</option>
+              </select>
+            </li>
+            <li>
+              <label for="MarocvsCroatie"
+                >Qui gagne le match Maroc VS Croatie?</label
+              >
+              <select id="MarocvsCroatie">
+                <option value="Maroc">Maroc</option>
+                <option value="Croatie">Croatie</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe F..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe G</h2>
+        <ul>
+          <li>Brésil</li>
+          <li>Serbie</li>
+          <li>Suisse</li>
+          <li>Cameroun</li>
+        </ul>
+      </div>
+      <div>
+        <form id="formulairesondage7" action="/action.php" method="post">
+          <ul class="listematch">
+            <li>
+              <label for="BrésilvsSerbie"
+                >Qui gagne le match Brésil VS Serbie?</label
+              >
+              <select id="BrésilvsSerbie">
+                <option value="Brésil">Brésil</option>
+                <option value="Serbie">Serbie</option>
+              </select>
+            </li>
+            <li>
+              <label for="BrésilvsSuisse"
+                >Qui gagne le match Brésil VS Suisse?</label
+              >
+              <select id="BrésilvsSuisse">
+                <option value="Brésil">Brésil</option>
+                <option value="Suisse">Suisse</option>
+              </select>
+            </li>
+            <li>
+              <label for="BrésilvsCameroun"
+                >Qui gagne le match Brésil VS Cameroun?</label
+              >
+              <select id="BrésilvsCameroun">
+                <option value="Brésil">Brésil</option>
+                <option value="Cameroun">Cameroun</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="listematch">
+            <li>
+              <label for="SerbievsSuisse"
+                >Qui gagne le match Serbie VS Suisse?</label
+              >
+              <select id="SerbievsSuisse">
+                <option value="Serbie">Serbie</option>
+                <option value="Suisse">Suisse</option>
+              </select>
+            </li>
+            <li>
+              <label for="SerbievsCameroun"
+                >Qui gagne le match Serbie VS Cameroun?</label
+              >
+              <select id="SerbievsCameroun">
+                <option value="Serbie">Serbie</option>
+                <option value="Cameroun">Cameroun</option>
+              </select>
+            </li>
+            <li>
+              <label for="SuissevsCameroun"
+                >Qui gagne le match Suisse VS Cameroun?</label
+              >
+              <select id="SuissevsCameroun">
+                <option value="Suisse">Suisse</option>
+                <option value="Cameroun">Cameroun</option>
+              </select>
+            </li>
+          </ul>
+          <textarea
+            name="Commentaire"
+            class="commentairegroupe"
+            cols="166"
+            rows="8"
+            placeholder="Entrez vos commentaire sur le groupe G..."
+          ></textarea>
+          <input type="submit" value="Valider" />
+        </form>
+      </div>
+      <div class="poules">
+        <h2>Groupe H</h2>
+        <ul>
+          <li>Portugal</li>
+          <li>Ghana</li>
+          <li>Uruguay</li>
+          <li>Corée du Sud</li>
+        </ul>
+      </div>
+        <div>
+          <form id="formulairesondage8" action="/action.php" method="post">
+            <ul class="listematch">
+              <li>
+                <label for="PortugalvsGhana"
+                  >Qui gagne le match Portugal VS Ghana?</label
+                >
+                <select id="PortugalvsGhana">
+                  <option value="Portugal">Portugal</option>
+                  <option value="Ghana">Ghana</option>
+                </select>
+              </li>
+              <li>
+                <label for="PortugalvsUruguay"
+                  >Qui gagne le match Portugal VS Uruguay?</label
+                >
+                <select id="PortugalvsUruguay">
+                  <option value="Portugal">Portugal</option>
+                  <option value="Uruguay">Uruguay</option>
+                </select>
+              </li>
+              <li>
+                <label for="PortugalvsCorée du Sud"
+                  >Qui gagne le match Portugal VS Corée du Sud?</label
+                >
+                <select id="PortugalvsCorée du Sud">
+                  <option value="Portugal">Portugal</option>
+                  <option value="Corée du Sud">Corée du Sud</option>
+                </select>
+              </li>
+            </ul>
+            <ul class="listematch">
+              <li>
+                <label for="GhanavsUruguay"
+                  >Qui gagne le match Ghana VS Uruguay?</label
+                >
+                <select id="GhanavsUruguay">
+                  <option value="Ghana">Ghana</option>
+                  <option value="Uruguay">Uruguay</option>
+                </select>
+              </li>
+              <li>
+                <label for="GhanavsCorée du Sud"
+                  >Qui gagne le match Ghana VS Corée du Sud?</label
+                >
+                <select id="GhanavsCorée du Sud">
+                  <option value="Ghana">Ghana</option>
+                  <option value="Corée du Sud">Corée du Sud</option>
+                </select>
+              </li>
+              <li>
+                <label for="UruguayvsCorée du Sud"
+                  >Qui gagne le match Uruguay VS Corée du Sud?</label
+                >
+                <select id="UruguayvsCorée du Sud">
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Corée du Sud">Corée du Sude</option>
+                </select>
+              </li>
+            </ul>
+            <textarea
+              name="Commentaire"
+              class="commentairegroupe"
+              cols="166"
+              rows="8"
+              placeholder="Entrez vos commentaire sur le groupe H..."
+            ></textarea>
+            <input type="submit" value="Valider" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
