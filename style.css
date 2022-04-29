@@ -4,7 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: rgb(187, 54, 54);
 }
@@ -27,10 +27,6 @@ header li {
     margin-right: 50px;
 }
 
-p {
-    font-size: 50px;
-}
-
 header li a {
     text-decoration: none;
     display: block;
@@ -48,7 +44,9 @@ header li a {
     height: auto;
     position: static;
 }
-
+#bodyequipes {
+    background: url(./images/bgequipe.jpg);
+}
 h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
@@ -58,7 +56,7 @@ h1 {
     text-shadow: 1px 3px 2px black;
 }
 
-h2 {
+#bodysondage h2 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: rgb(187, 54, 54);
@@ -81,12 +79,16 @@ h2 {
 .listematch {
     display: flex;
     width: 87%;
+    list-style: none;
     justify-content: space-between;
+}
+textarea {
+    resize: none;
+
 }
 #formulairesondage1 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 30%;
     bottom: 55%;
@@ -100,7 +102,6 @@ h2 {
 #formulairesondage2 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 72%;
     bottom:13%;
@@ -111,7 +112,6 @@ h2 {
 #formulairesondage3 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 113%;
     bottom:-28%;
@@ -122,7 +122,6 @@ h2 {
 #formulairesondage4 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 155%;
     bottom: -70%;
@@ -133,7 +132,6 @@ h2 {
 #formulairesondage5 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 197%;
     bottom: -112%;
@@ -144,7 +142,6 @@ h2 {
 #formulairesondage6 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 239%;
     bottom: -154%;
@@ -155,7 +152,6 @@ h2 {
 #formulairesondage7 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 281%;
     bottom: -196%;
@@ -166,7 +162,6 @@ h2 {
 #formulairesondage8 {
     background: whitesmoke;
     font-size: large;
-    list-style-type: none;
     position: absolute;
     top: 323%;
     bottom: -238%;
@@ -174,4 +169,83 @@ h2 {
     right: 15%;
     float: left;
 
+}
+
+#bodyequipes main {
+    margin: 20px 10% 5% 10%;
+    padding: 10px 20% 20% 20%;
+    height: 5000px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+#bodyequipes div {
+    width: auto;
+}
+
+#bodyequipes h2 {
+    margin-top: 130px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(187, 54, 54);
+    text-shadow: 1px 3px 2px black;
+}
+#bodyequipes h3 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: -100px;
+}
+#poulea {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#pouleb {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#poulec {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#pouled {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#poulee {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#poulef {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#pouleg {
+    font-size: 2rem;
+    line-height: 100px;
+}
+#pouleh {
+    font-size: 2rem;
+    line-height: 100px;
+}
+
+#bodyequipes div a {
+    text-decoration: none;
+    color: black;
+
+}
+#bodyequipes div ul {
+    padding: 5% 5% 5% 5%;
+}
+.imagedrapeau {
+    width: 180px;
+    height: 85px;
+    float: right;
+    border: 1px solid black;
+   
+}
+
+.poulesequipes {
+    list-style: none;
 }
